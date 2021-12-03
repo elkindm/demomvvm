@@ -1,4 +1,4 @@
-package co.com.libisoft.demomvvm
+package co.com.libisoft.demomvvm.view
 
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
@@ -9,13 +9,14 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
+import co.com.libisoft.demomvvm.R
 import co.com.libisoft.demomvvm.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
-    //prueba git
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
